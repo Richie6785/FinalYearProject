@@ -39,6 +39,7 @@ dependencies:
   #helps create users and sign in
   firebase_auth: ^4.2.0
   firebase_core: ^2.4.0
+  cloud_firestore: ^4.2.0
 
 dev_dependencies:
   flutter_test:

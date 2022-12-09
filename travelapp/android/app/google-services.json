@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "538312322508",
+    "project_id": "finalyproject-6d5c7",
+    "storage_bucket": "finalyproject-6d5c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538312322508:android:017513b32fa0226f064169",
+        "android_client_info": {
+          "package_name": "com.example.travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538312322508-1ujv8jmk2s4uc13c1no582cdan30i08c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQ_r0nQg9utgUKSRaViXPDeoVm5BPmSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538312322508-1ujv8jmk2s4uc13c1no582cdan30i08c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "538312322508-093t20l86etgubi413v1ona8m7tma28f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.travelapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
