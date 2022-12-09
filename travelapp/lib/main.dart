@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  //async is used to make the function asynchronous. We can to continue acess from our project to the firebase backend
+  WidgetsFlutterBinding
+      .ensureInitialized(); //this gives access to the native code
+
   runApp(const MyApp());
 }
 
