@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:travelapp/login.dart';
-import 'login.dart';
+import 'package:travelapp/mainpage.dart';
 
 void main() async {
   //async is used to make the function asynchronous. We can to continue acess from our project to the firebase backend
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Login(),
+      home: const Hpage(),
     );
   }
 }
