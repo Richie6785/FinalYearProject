@@ -11,13 +11,17 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  final emailcontroller = TextEditingController();
-  final passwordcontroller = TextEditingController();
+  final emailcontroller =
+      TextEditingController(); //this is used to get the value of the textfield
+  final passwordcontroller =
+      TextEditingController(); //this is used to get the value of the textfield
 
   Future signin() async {
     await FirebaseAuth.instance.signInWithEmailAndPassword(
-        email: emailcontroller.text.trim(),
-        password: passwordcontroller.text.trim());
+        email: emailcontroller.text
+            .trim(), //trim is used to remove any extra spaces
+        password: passwordcontroller.text
+            .trim()); //trim is used to remove any extra spaces
   }
 
   void dispose() {

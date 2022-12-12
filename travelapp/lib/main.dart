@@ -12,6 +12,7 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  //this is the main class
   const MyApp({super.key});
 
   @override
@@ -19,9 +20,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Travel App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue, //sets the primary color
       ),
-      home: const Hpage(),
+      home: const Hpage(), //sets the home page
     );
   }
 }

@@ -10,9 +10,12 @@ class Hpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: StreamBuilder<User?>(
-        stream: FirebaseAuth.instance.authStateChanges(),
+        stream: FirebaseAuth.instance
+            .authStateChanges(), //listen to any authstate changes
         builder: (context, snapshot) {
+          //check a non null user
           if (snapshot.hasData) {
+            //gives information about the user
             return const Home();
           } else {
             return const Login();
